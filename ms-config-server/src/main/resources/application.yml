@@ -1,5 +1,7 @@
+
 server:
   port: 7070
+
 spring:
   application:
     name: config-server
@@ -7,13 +9,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/abdul8377/DAD-MS2024-2.git
-          search-paths: config-data
-          #en caso de proyectos privados en este caso es publico por lo tanot no es necesario
-          #username:
-          #password:
+          uri: https://github.com/abdul8377/ms-configcentra.git # ruta del repositorio git
+          searchPaths: config-data
           default-label: main
   security:
     user:
       name: root
-      password: s3cr3t
+      password: 123456
