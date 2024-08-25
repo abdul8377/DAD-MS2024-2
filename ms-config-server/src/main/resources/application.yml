@@ -12,7 +12,7 @@ spring:
           #en caso de proyectos privados en este caso es publico por lo tanot no es necesario
           #username:
           #password:
-          default-label: ms-config-server
+          default-label: main
   security:
     user:
       name: root
