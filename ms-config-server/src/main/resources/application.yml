@@ -9,7 +9,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/abdul8377/ms-configcentra.git # ruta del repositorio git
+          uri: https://github.com/abdul8377/DAD-MS2024-2.git # ruta del repositorio git
           searchPaths: config-data
           default-label: main
   security:
