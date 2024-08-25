@@ -7,4 +7,13 @@ spring:
     config:
       server:
         git:
-          uri: 
+          uri: https://github.com/abdul8377/DAD-MS2024-2.git
+          search-paths: config-data
+          #en caso de proyectos privados en este caso es publico por lo tanot no es necesario
+          #username:
+          #password:
+          default-label: ms-config-server
+  security:
+    user:
+      name: root
+      password: s3cr3t
